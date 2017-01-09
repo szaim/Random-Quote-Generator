@@ -20,11 +20,17 @@ function getQuote(){
 };
 
 var generateQuote = function(item) {
-	var $app = $('.app');
+	var $quote = $('.quote');
+	var $author = $('.author')
 
-	$app.append('<p>' + item.quoteText + '</p>');
+	$quote.html(item.quoteText);
+	$author.html(item.quoteAuthor);
 }
 
+$('.btn').click(function(e) {
+	e.preventDefault();
+	getQuote();
+})
 
 $(document).ready(function() {
 	getQuote();
