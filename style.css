@@ -1,0 +1,26 @@
+
+.card {
+	width: 600px;
+    margin: 0 auto;
+    top: 13em;
+}
+
+.btn {
+	margin-left: 27em;
+	color: #fff;
+}
+
+.btn:focus, .btn:hover {
+	color: #fff;
+}
+
+.quote {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.author {
+	color: #D6D5D6;
+}
+
